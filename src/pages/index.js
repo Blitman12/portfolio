@@ -157,7 +157,11 @@ const IndexPage = () => (
             integral part of your team!
           </p>
 
-          <form name="contact" method="POST" data-netlify="true">
+          <form
+            name="submission-form-netlify"
+            method="POST"
+            data-netlify="true"
+          >
             <div className="row">
               <div className="col-6 col-12-mobile">
                 <input type="text" name="name" placeholder="Name" />
