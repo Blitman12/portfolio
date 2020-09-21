@@ -159,7 +159,7 @@ const IndexPage = () => (
 
           <form
             name="getincontact"
-            method="POST"
+            method="post"
             data-netlify="true"
           >
             <div className="row">
