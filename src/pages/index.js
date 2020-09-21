@@ -173,7 +173,7 @@ const IndexPage = () => (
                 <textarea name="message" placeholder="Message" />
               </div>
               <div className="col-12">
-                <input type="submit" value="Send Message" />
+                <input name="send-message" type="submit" value="Send Message" />
               </div>
             </div>
           </form>
