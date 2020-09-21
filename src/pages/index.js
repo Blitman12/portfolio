@@ -70,14 +70,14 @@ const IndexPage = () => (
               </article>
               <article className="item">
                 <a
-                  href="https://benchpresscalc.netlify.app/"
+                  href="https://sierra-resume.netlify.app/"
                   className="image fit"
                   target="_blank"
                 >
-                  <img src={pic3} alt="" />
+                  <img src={pic5} alt="" />
                 </a>
                 <header>
-                  <h3>Simple BenchPress Tracker</h3>
+                  <h3>My Wife`s Theatre Resume</h3>
                 </header>
               </article>
             </div>
@@ -98,14 +98,14 @@ const IndexPage = () => (
             <div className="col-4 col-12-mobile">
               <article className="item">
                 <a
-                  href="https://sierra-resume.netlify.app/"
+                  href="https://benchpresscalc.netlify.app/ "
                   className="image fit"
                   target="_blank"
                 >
-                  <img src={pic5} alt="" />
+                  <img src={pic3} alt="" />
                 </a>
                 <header>
-                  <h3>My Wife`s Theatre Resume</h3>
+                  <h3>Simple BenchPress Tracker</h3>
                 </header>
               </article>
               {/* <article className="item">
@@ -155,11 +155,8 @@ const IndexPage = () => (
             integral part of your team!
           </p>
 
-          <form
-            name="getincontact"
-            method="post"
-            data-netlify="true"
-          >
+          <form name="getincontact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="contact" />
             <div className="row">
               <div className="col-6 col-12-mobile">
                 <input type="text" name="name" placeholder="Name" />
