@@ -4,13 +4,13 @@ import Layout from '../components/Layout';
 import PageFooter from '../components/PageFooter';
 import SideBar from '../components/SideBar';
 
-import pic2 from '../assets/images/pic02.jpg';
-import pic3 from '../assets/images/pic03.jpg';
-import pic4 from '../assets/images/pic04.jpg';
-import pic5 from '../assets/images/pic05.jpg';
+import pic2 from '../assets/images/accounting.jpg';
+import pic3 from '../assets/images/benchpress.jpg';
+import pic4 from '../assets/images/fitness.jpg';
+import pic5 from '../assets/images/theatre.jpg';
 import pic6 from '../assets/images/pic06.jpg';
 import pic7 from '../assets/images/pic07.jpg';
-import pic8 from '../assets/images/pic08.jpg';
+import pic8 from '../assets/images/profile.jpg';
 import Scroll from '../components/Scroll';
 
 const sections = [
@@ -29,11 +29,10 @@ const IndexPage = () => (
         <div className="container">
           <header>
             <h2 className="alt">
-              Hi! I'm <strong>Anubhav</strong>
-              <br />
-              Web developer
+              Hi! I'm <strong>Bradley Litman</strong>
+              <br />A Self Taught Web Developer
             </h2>
-            <p>I have made few things check it out.</p>
+            <p>I have been working on a few projects. Check them out!</p>
           </header>
 
           <footer>
@@ -49,70 +48,76 @@ const IndexPage = () => (
       <section id="portfolio" className="two">
         <div className="container">
           <header>
-            <h2>Portfolio</h2>
+            <h2>Completed and in progress</h2>
           </header>
 
           <p>
-            Life will feel it is always a great need for eu valley, the valley
-            CNN ridiculous smile at any time chat mainstream clinical homes.
-            Mauris floor was very warm and we need it. One customer now nibh
-            Bureau dark pools behavior.
+            These projects will show knowledge in Javascript, HTML, CSS, React,
+            Gatsby, Bootstrap and Material-UI
           </p>
 
           <div className="row">
             <div className="col-4 col-12-mobile">
               <article className="item">
-                <a href="/#" className="image fit">
+                <a
+                  href="https://www.healthcaresystemsandservices.com/"
+                  className="image fit"
+                  target="_blank"
+                >
                   <img src={pic2} alt="" />
                 </a>
                 <header>
-                  <h3>Ipsum Feugiat</h3>
+                  <h3>Healthcare Systems and Services</h3>
                 </header>
               </article>
               <article className="item">
-                <a href="/#" className="image fit">
+                <a
+                  href="https://benchpresscalc.netlify.app/"
+                  className="image fit"
+                  target="_blank"
+                >
                   <img src={pic3} alt="" />
                 </a>
                 <header>
-                  <h3>Rhoncus Semper</h3>
+                  <h3>Simple BenchPress Tracker</h3>
                 </header>
               </article>
             </div>
             <div className="col-4 col-12-mobile">
               <article className="item">
-                <a href="/#" className="image fit">
+                <a
+                  href="https://litman-blog.netlify.app/"
+                  className="image fit"
+                  target="_blank"
+                >
                   <img src={pic4} alt="" />
                 </a>
                 <header>
-                  <h3>Magna Nullam</h3>
-                </header>
-              </article>
-              <article className="item">
-                <a href="/#" className="image fit">
-                  <img src={pic5} alt="" />
-                </a>
-                <header>
-                  <h3>Natoque Vitae</h3>
+                  <h3>Fitness Blog</h3>
                 </header>
               </article>
             </div>
             <div className="col-4 col-12-mobile">
               <article className="item">
-                <a href="/#" className="image fit">
-                  <img src={pic6} alt="" />
+                <a
+                  href="https://sierra-resume.netlify.app/"
+                  className="image fit"
+                  target="_blank"
+                >
+                  <img src={pic5} alt="" />
                 </a>
                 <header>
-                  <h3>Dolor Penatibus</h3>
+                  <h3>My Wife`s Theatre Resume</h3>
                 </header>
               </article>
-              <article className="item">
+              {/* <article className="item">
                 <a href="/#" className="image fit">
                   <img src={pic7} alt="" />
                 </a>
                 <header>
                   <h3>Orci Convallis</h3>
                 </header>
-              </article>
+              </article> */}
             </div>
           </div>
         </div>
@@ -129,13 +134,14 @@ const IndexPage = () => (
           </a>
 
           <p>
-            Developers football competition in diameter big price to layer the
-            pot. Chavez ultricies care who wants to CNN. Lobortis elementum
-            aliquet eget a den of which they do not hold it in hatred developers
-            nor the mountains of the deposit slip. The element of time, sem ante
-            ullamcorper dolor nulla quam placerat viverra environment is not
-            with our customers. Free makeup and skirt until the mouse or
-            partners or to decorate each targeted.
+            I graduated with my Bachelor of Science in Nursing in 2016 and have
+            worked at a few Emergency Departments until finally landing at
+            American Express. Here I was introduced to the business/technology
+            side of the world and revaluated my life`s goals. I determined that
+            Web Development was my future and passion. I have been working full
+            time and self teaching coding since March of 2020 and look forward
+            to developing my skills and seek employment as a full time Web
+            Developer.
           </p>
         </div>
       </section>
@@ -147,14 +153,11 @@ const IndexPage = () => (
           </header>
 
           <p>
-            The element of time, sem ante ullamcorper dolor nulla quam placerat
-            viverra environment is not with our customers. Free makeup and skirt
-            until the mouse. Japan this innovative and ultricies carton salad
-            clinical ridiculous now passes from enhanced. Mauris pot innovative
-            care for my pain.
+            I would love the opportunity to further my skills and evolve into an
+            integral part of your team!
           </p>
 
-          <form method="post" action="#">
+          <form name="contact" method="POST" data-netlify="true" action="POST>
             <div className="row">
               <div className="col-6 col-12-mobile">
                 <input type="text" name="name" placeholder="Name" />
