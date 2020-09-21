@@ -158,7 +158,7 @@ const IndexPage = () => (
           </p>
 
           <form
-            name="submission-form-netlify"
+            name="getincontact"
             method="POST"
             data-netlify="true"
           >
@@ -173,7 +173,7 @@ const IndexPage = () => (
                 <textarea name="message" placeholder="Message" />
               </div>
               <div className="col-12">
-                <input name="send-message" type="submit" value="Send Message" />
+                <input name="sumbitbutton" type="submit" value="Send Message" />
               </div>
             </div>
           </form>
