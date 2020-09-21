@@ -8,8 +8,6 @@ import pic2 from '../assets/images/accounting.jpg';
 import pic3 from '../assets/images/benchpress.jpg';
 import pic4 from '../assets/images/fitness.jpg';
 import pic5 from '../assets/images/theatre.jpg';
-import pic6 from '../assets/images/pic06.jpg';
-import pic7 from '../assets/images/pic07.jpg';
 import pic8 from '../assets/images/profile.jpg';
 import Scroll from '../components/Scroll';
 
@@ -173,7 +171,8 @@ const IndexPage = () => (
                 <textarea name="message" placeholder="Message" />
               </div>
               <div className="col-12">
-                <input name="sumbit" type="submit" value="Send Message" />
+                {/* <input name="sumbit" type="submit" value="Send Message" /> */}
+                <button type="submit">Submit</button>
               </div>
             </div>
           </form>
