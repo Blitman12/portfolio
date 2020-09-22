@@ -188,34 +188,49 @@ const IndexPage = () => (
             </div>
           </form> */}
 
-          <form name="getincontact" method="POST" data-netlify="true">
-            <p>
-              <label>
-                Your Name: <input type="text" name="name" />
-              </label>
-            </p>
-            <p>
-              <label>
-                Your Email: <input type="email" name="email" />
-              </label>
-            </p>
-            <p>
-              <label>
-                Your Role:{' '}
-                <select name="role[]" multiple>
-                  <option value="leader">Leader</option>
-                  <option value="follower">Follower</option>
-                </select>
-              </label>
-            </p>
-            <p>
-              <label>
-                Message: <textarea name="message"></textarea>
-              </label>
-            </p>
-            <p>
-              <button type="submit">Send</button>
-            </p>
+          <form
+            className="email-form"
+            name="contact"
+            method="post"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
+          >
+            <input type="hidden" name="bot-field" />
+            <input type="hidden" name="form-name" value="contact" />
+            <div className="form-group">
+              <label for="exampleInputEmail1">Email: </label>
+              <input
+                type="email"
+                className="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                name="email"
+                required
+              />
+            </div>
+            <div className="form-group">
+              <label for="exampleInputPassword1">Name: </label>
+              <input
+                type="test"
+                className="form-control"
+                id="exampleInputPassword1"
+                name="name"
+                required
+              />
+            </div>
+            <div className="form-group">
+              <label for="exampleFormControlTextarea1">Message: </label>
+              <textarea
+                className="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+                name="message"
+                required
+              />
+            </div>
+            <button type="submit" className="btn btn-primary">
+              Submit
+            </button>
           </form>
         </div>
       </section>
