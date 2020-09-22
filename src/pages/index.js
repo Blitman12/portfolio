@@ -8,6 +8,7 @@ import pic2 from '../assets/images/accounting.jpg';
 import pic3 from '../assets/images/benchpress.jpg';
 import pic4 from '../assets/images/fitness.jpg';
 import pic5 from '../assets/images/theatre.jpg';
+import pic7 from '../assets/images/chat.png';
 import pic8 from '../assets/images/profile.jpg';
 import Scroll from '../components/Scroll';
 
@@ -46,12 +47,12 @@ const IndexPage = () => (
       <section id="portfolio" className="two">
         <div className="container">
           <header>
-            <h2>Completed and in progress</h2>
+            <h2>Completed and in progress/github</h2>
           </header>
 
           <p>
-            These projects will show knowledge in Javascript, HTML, CSS, React,
-            Gatsby, Bootstrap and Material-UI
+            These projects will show knowledge in JavaScript, HTML, CSS, React,
+            Gatsby, Bootstrap, Material-UI and more
           </p>
 
           <div className="row">
@@ -65,7 +66,8 @@ const IndexPage = () => (
                   <img src={pic2} alt="" />
                 </a>
                 <header>
-                  <h3>Healthcare Systems and Services</h3>
+                  <h3>Healthcare Systems and Services (live - business)</h3>
+                  <h6>"Gatsby, Netlify, Active Form Submission"</h6>
                 </header>
               </article>
               <article className="item">
@@ -78,6 +80,7 @@ const IndexPage = () => (
                 </a>
                 <header>
                   <h3>My Wife`s Theatre Resume</h3>
+                  <h6>"HTML, CSS"</h6>
                 </header>
               </article>
             </div>
@@ -92,6 +95,20 @@ const IndexPage = () => (
                 </a>
                 <header>
                   <h3>Fitness Blog</h3>
+                  <h6>"React, Gatsby, MDX"</h6>
+                </header>
+              </article>
+              <article className="item">
+                <a
+                  href="https://github.com/Blitman12/chat-app"
+                  className="image fit"
+                  target="_blank"
+                >
+                  <img src={pic7} alt="" />
+                </a>
+                <header>
+                  <h3>Simple Chat App (github)</h3>
+                  <h6>"Node.js, Socket.io, JavaScript"</h6>
                 </header>
               </article>
             </div>
@@ -106,16 +123,9 @@ const IndexPage = () => (
                 </a>
                 <header>
                   <h3>Simple BenchPress Tracker</h3>
+                  <h6>"Chart.js, JavaScript"</h6>
                 </header>
               </article>
-              {/* <article className="item">
-                <a href="/#" className="image fit">
-                  <img src={pic7} alt="" />
-                </a>
-                <header>
-                  <h3>Orci Convallis</h3>
-                </header>
-              </article> */}
             </div>
           </div>
         </div>
@@ -155,8 +165,13 @@ const IndexPage = () => (
             integral part of your team!
           </p>
 
-          <form name="getincontact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
-          <input type="hidden" name="form-name" value="contact" />
+          <form
+            name="getincontact"
+            method="post"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
+          >
+            <input type="hidden" name="form-name" value="contact" />
             <div className="row">
               <div className="col-6 col-12-mobile">
                 <input type="text" name="name" placeholder="Name" />
