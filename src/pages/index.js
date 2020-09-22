@@ -164,12 +164,13 @@ const IndexPage = () => (
             integral part of your team!
           </p>
 
-          {/* <form
-            name="getincontact"
+          <form
+            name="contact"
             method="POST"
             data-netlify="true"
             data-netlify-honeypot="bot-field"
           >
+            <input type="hidden" name="bot-field" />
             <input type="hidden" name="form-name" value="contact" />
             <div className="row">
               <div className="col-6 col-12-mobile">
@@ -182,13 +183,12 @@ const IndexPage = () => (
                 <textarea name="message" placeholder="Message" />
               </div>
               <div className="col-12">
-                
                 <button type="submit">Submit</button>
               </div>
             </div>
-          </form> */}
+          </form>
 
-          <form
+          {/* <form
             className="email-form"
             name="contact"
             method="post"
@@ -231,7 +231,7 @@ const IndexPage = () => (
             <button type="submit" className="btn btn-primary">
               Submit
             </button>
-          </form>
+          </form> */}
         </div>
       </section>
     </div>
