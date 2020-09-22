@@ -10,6 +10,7 @@ import pic4 from '../assets/images/fitness.jpg';
 import pic5 from '../assets/images/theatre.jpg';
 import pic7 from '../assets/images/chat.png';
 import pic8 from '../assets/images/profile.jpg';
+import calc from '../assets/images/calculator.jpg'
 import Scroll from '../components/Scroll';
 
 const sections = [
@@ -126,6 +127,19 @@ const IndexPage = () => (
                   <h6>"Chart.js, JavaScript"</h6>
                 </header>
               </article>
+              <article className="item">
+                <a
+                  href="https://cranky-knuth-bb2350.netlify.app/"
+                  className="image fit"
+                  target="_blank"
+                >
+                  <img src={calc} alt="" />
+                </a>
+                <header>
+                  <h3>React Calculator</h3>
+                  <h6>"React, JavaScript"</h6>
+                </header>
+              </article>
             </div>
           </div>
         </div>
@@ -187,51 +201,6 @@ const IndexPage = () => (
               </div>
             </div>
           </form>
-
-          {/* <form
-            className="email-form"
-            name="contact"
-            method="post"
-            data-netlify="true"
-            data-netlify-honeypot="bot-field"
-          >
-            <input type="hidden" name="bot-field" />
-            <input type="hidden" name="form-name" value="contact" />
-            <div className="form-group">
-              <label for="exampleInputEmail1">Email: </label>
-              <input
-                type="email"
-                className="form-control"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
-                name="email"
-                required
-              />
-            </div>
-            <div className="form-group">
-              <label for="exampleInputPassword1">Name: </label>
-              <input
-                type="test"
-                className="form-control"
-                id="exampleInputPassword1"
-                name="name"
-                required
-              />
-            </div>
-            <div className="form-group">
-              <label for="exampleFormControlTextarea1">Message: </label>
-              <textarea
-                className="form-control"
-                id="exampleFormControlTextarea1"
-                rows="3"
-                name="message"
-                required
-              />
-            </div>
-            <button type="submit" className="btn btn-primary">
-              Submit
-            </button>
-          </form> */}
         </div>
       </section>
     </div>
