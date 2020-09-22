@@ -159,15 +159,14 @@ const IndexPage = () => (
           <header>
             <h2>Contact</h2>
           </header>
-
           <p>
             I would love the opportunity to further my skills and evolve into an
             integral part of your team!
           </p>
 
-          <form
+          {/* <form
             name="getincontact"
-            method="post"
+            method="POST"
             data-netlify="true"
             data-netlify-honeypot="bot-field"
           >
@@ -183,10 +182,40 @@ const IndexPage = () => (
                 <textarea name="message" placeholder="Message" />
               </div>
               <div className="col-12">
-                {/* <input name="sumbit" type="submit" value="Send Message" /> */}
+                
                 <button type="submit">Submit</button>
               </div>
             </div>
+          </form> */}
+
+          <form name="getincontact" method="POST" data-netlify="true">
+            <p>
+              <label>
+                Your Name: <input type="text" name="name" />
+              </label>
+            </p>
+            <p>
+              <label>
+                Your Email: <input type="email" name="email" />
+              </label>
+            </p>
+            <p>
+              <label>
+                Your Role:{' '}
+                <select name="role[]" multiple>
+                  <option value="leader">Leader</option>
+                  <option value="follower">Follower</option>
+                </select>
+              </label>
+            </p>
+            <p>
+              <label>
+                Message: <textarea name="message"></textarea>
+              </label>
+            </p>
+            <p>
+              <button type="submit">Send</button>
+            </p>
           </form>
         </div>
       </section>
