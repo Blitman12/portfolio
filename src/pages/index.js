@@ -10,7 +10,7 @@ import pic4 from '../assets/images/fitness.jpg';
 import pic5 from '../assets/images/theatre.jpg';
 import pic7 from '../assets/images/chat.png';
 import pic8 from '../assets/images/profile.jpg';
-import calc from '../assets/images/calculator.jpg'
+import calc from '../assets/images/calculator.jpg';
 import Scroll from '../components/Scroll';
 
 const sections = [
@@ -30,8 +30,9 @@ const IndexPage = () => (
           <header>
             <h2 className="alt">
               Hi! I'm <strong>Bradley Litman</strong>
-              <br />A Self Taught Web Developer
+              <br />
             </h2>
+            <h2 className="alt">A Self Taught Web Developer</h2>
             <p>I have been working on a few projects. Check them out!</p>
           </header>
 
