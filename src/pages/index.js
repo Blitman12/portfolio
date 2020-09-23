@@ -11,6 +11,7 @@ import pic5 from '../assets/images/theatre.jpg';
 import pic7 from '../assets/images/chat.png';
 import pic8 from '../assets/images/profile.jpg';
 import calc from '../assets/images/calculator.jpg';
+import ichabod from '../assets/images/ichabodlion.jpg'
 import Scroll from '../components/Scroll';
 
 const sections = [
@@ -83,6 +84,19 @@ const IndexPage = () => (
                 <header>
                   <h3>My Wife`s Theatre Resume</h3>
                   <h6>"HTML, CSS"</h6>
+                </header>
+              </article>
+              <article className="item">
+                <a
+                  href="https://sad-liskov-05290c.netlify.app/"
+                  className="image fit"
+                  target="_blank"
+                >
+                  <img src={ichabod} alt="" />
+                </a>
+                <header>
+                  <h3>Simple Parallax Example (+ Cats)</h3>
+                  <h6>"Parallax, CSS"</h6>
                 </header>
               </article>
             </div>
