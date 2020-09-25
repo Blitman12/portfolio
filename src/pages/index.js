@@ -10,6 +10,7 @@ import pic4 from '../assets/images/fitness.jpg';
 import pic5 from '../assets/images/theatre.jpg';
 import pic7 from '../assets/images/chat.png';
 import pic8 from '../assets/images/profile.jpg';
+import avatar from '../assets/images/avatar.jpg';
 import calc from '../assets/images/calculator.jpg';
 import ichabod from '../assets/images/ichabodlion.jpg'
 import Scroll from '../components/Scroll';
@@ -125,6 +126,19 @@ const IndexPage = () => (
                 <header>
                   <h3>Simple Chat App (github)</h3>
                   <h6>"Node.js, Socket.io, JavaScript"</h6>
+                </header>
+              </article>
+              <article className="item">
+                <a
+                  href="https://focused-joliot-3695d4.netlify.app/"
+                  className="image fit"
+                  target="_blank"
+                >
+                  <img src={avatar} alt="" />
+                </a>
+                <header>
+                  <h3>LoFi HipHop Avatar Clock</h3>
+                  <h6>"JavaScript, HTML, CSS, Design"</h6>
                 </header>
               </article>
             </div>
