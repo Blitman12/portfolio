@@ -13,6 +13,7 @@ import pic8 from '../assets/images/profile.jpg';
 import avatar from '../assets/images/avatar.jpg';
 import anime from '../assets/images/anime.jpg';
 import calc from '../assets/images/calculator.jpg';
+import weather from '../assets/images/weather.jpg';
 import ichabod from '../assets/images/ichabodlion.jpg';
 import Scroll from '../components/Scroll';
 
@@ -68,7 +69,7 @@ const IndexPage = () => (
                   className="image fit"
                   target="_blank"
                 >
-                  <img src={pic2} alt="" />
+                  <img src={pic2} alt="accounting website" />
                 </a>
                 <header>
                   <h3>Healthcare Systems and Services (live - business)</h3>
@@ -81,7 +82,7 @@ const IndexPage = () => (
                   className="image fit"
                   target="_blank"
                 >
-                  <img src={pic5} alt="" />
+                  <img src={pic5} alt="generic css" />
                 </a>
                 <header>
                   <h3>My Wife`s Theatre Resume</h3>
@@ -94,7 +95,7 @@ const IndexPage = () => (
                   className="image fit"
                   target="_blank"
                 >
-                  <img src={ichabod} alt="" />
+                  <img src={ichabod} alt="sphynx cat" />
                 </a>
                 <header>
                   <h3>Simple Parallax Example (+ Cats)</h3>
@@ -109,7 +110,7 @@ const IndexPage = () => (
                   className="image fit"
                   target="_blank"
                 >
-                  <img src={pic4} alt="" />
+                  <img src={pic4} alt="barbell" />
                 </a>
                 <header>
                   <h3>Fitness Blog</h3>
@@ -122,7 +123,7 @@ const IndexPage = () => (
                   className="image fit"
                   target="_blank"
                 >
-                  <img src={pic7} alt="" />
+                  <img src={pic7} alt="chat bot" />
                 </a>
                 <header>
                   <h3>Simple Chat App (github)</h3>
@@ -135,11 +136,24 @@ const IndexPage = () => (
                   className="image fit"
                   target="_blank"
                 >
-                  <img src={avatar} alt="" />
+                  <img src={avatar} alt="avatar clock" />
                 </a>
                 <header>
                   <h3>LoFi HipHop Avatar Clock</h3>
                   <h6>"JavaScript, HTML, CSS, Design"</h6>
+                </header>
+              </article>
+              <article className="item">
+                <a
+                  href="https://sleepy-wiles-58c28e.netlify.app/"
+                  className="image fit"
+                  target="_blank"
+                >
+                  <img src={weather} alt="weather" />
+                </a>
+                <header>
+                  <h3>Weather Widget</h3>
+                  <h6>"React, API"</h6>
                 </header>
               </article>
             </div>
@@ -150,7 +164,7 @@ const IndexPage = () => (
                   className="image fit"
                   target="_blank"
                 >
-                  <img src={pic3} alt="" />
+                  <img src={pic3} alt="benchpress" />
                 </a>
                 <header>
                   <h3>Simple BenchPress Tracker</h3>
@@ -163,7 +177,7 @@ const IndexPage = () => (
                   className="image fit"
                   target="_blank"
                 >
-                  <img src={calc} alt="" />
+                  <img src={calc} alt="calculator" />
                 </a>
                 <header>
                   <h3>React Calculator</h3>
@@ -176,7 +190,7 @@ const IndexPage = () => (
                   className="image fit"
                   target="_blank"
                 >
-                  <img src={anime} alt="" />
+                  <img src={anime} alt="anime" />
                 </a>
                 <header>
                   <h3>Anime Search</h3>
