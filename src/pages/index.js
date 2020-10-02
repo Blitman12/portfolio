@@ -208,9 +208,9 @@ const IndexPage = () => (
             <h2>About Me</h2>
           </header>
 
-          <a href="/#" className="image featured">
+          {/* <a href="/#" className="image featured">
             <img src={pic8} alt="" />
-          </a>
+          </a> */}
 
           <p>
             I graduated with my Bachelor of Science in Nursing in 2016 and have
