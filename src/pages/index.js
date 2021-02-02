@@ -15,6 +15,7 @@ import anime from '../assets/images/anime.jpg';
 import calc from '../assets/images/calculator.jpg';
 import weather from '../assets/images/weather.jpg';
 import ichabod from '../assets/images/ichabodlion.jpg';
+import CMS from "../assets/images/CMS.png";
 import Scroll from '../components/Scroll';
 
 const sections = [
@@ -58,7 +59,7 @@ const IndexPage = () => (
 
           <p>
             These projects will show knowledge in JavaScript, HTML, CSS, React,
-            Gatsby, Bootstrap, Material-UI and more
+            Gatsby, MongoDB, GraphQl, Node.js, and more
           </p>
 
           <div className="row">
@@ -158,6 +159,19 @@ const IndexPage = () => (
               </article>
             </div>
             <div className="col-4 col-12-mobile">
+            <article className="item">
+                <a
+                  href="https://stupefied-mccarthy-042e49.netlify.app/"
+                  className="image fit"
+                  target="_blank"
+                >
+                  <img src={CMS} alt="benchpress" />
+                </a>
+                <header>
+                  <h3>Simple Headless CMS Blog</h3>
+                  <h6>"Contentful, Gatsby, GraphQl, Netlify"</h6>
+                </header>
+              </article>
               <article className="item">
                 <a
                   href="https://benchpresscalc.netlify.app/ "
