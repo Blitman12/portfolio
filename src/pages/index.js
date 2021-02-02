@@ -15,7 +15,7 @@ import anime from '../assets/images/anime.jpg';
 import calc from '../assets/images/calculator.jpg';
 import weather from '../assets/images/weather.jpg';
 import ichabod from '../assets/images/ichabodlion.jpg';
-import CMS from "../assets/images/CMS.png";
+import pic9 from '../assets/images/pic09.jpg';
 import Scroll from '../components/Scroll';
 
 const sections = [
@@ -159,13 +159,13 @@ const IndexPage = () => (
               </article>
             </div>
             <div className="col-4 col-12-mobile">
-            <article className="item">
+              <article className="item">
                 <a
                   href="https://stupefied-mccarthy-042e49.netlify.app/"
                   className="image fit"
                   target="_blank"
                 >
-                  <img src={CMS} alt="benchpress" />
+                  <img src={pic9} alt="benchpress" />
                 </a>
                 <header>
                   <h3>Simple Headless CMS Blog</h3>
