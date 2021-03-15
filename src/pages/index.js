@@ -10,12 +10,13 @@ import pic4 from '../assets/images/fitness.jpg';
 import pic5 from '../assets/images/theatre.jpg';
 import pic7 from '../assets/images/chat.png';
 import pic8 from '../assets/images/profile.jpg';
+import pic9 from '../assets/images/pic09.jpg';
+import pic10 from '../assets/images/MM.jpg';
 import avatar from '../assets/images/avatar.jpg';
 import anime from '../assets/images/anime.jpg';
 import calc from '../assets/images/calculator.jpg';
 import weather from '../assets/images/weather.jpg';
 import ichabod from '../assets/images/ichabodlion.jpg';
-import pic9 from '../assets/images/pic09.jpg';
 import Scroll from '../components/Scroll';
 
 const sections = [
@@ -79,6 +80,19 @@ const IndexPage = () => (
               </article>
               <article className="item">
                 <a
+                  href="https://shielded-tor-60600.herokuapp.com/"
+                  className="image fit"
+                  target="_blank"
+                >
+                  <img src={pic10} alt="generic css" />
+                </a>
+                <header>
+                  <h3>Muscle Memory</h3>
+                  <h6>"MERN, Authentication, Posts/Comments"</h6>
+                </header>
+              </article>
+              <article className="item">
+                <a
                   href="https://sierra-resume.netlify.app/"
                   className="image fit"
                   target="_blank"
@@ -103,6 +117,7 @@ const IndexPage = () => (
                   <h6>"Parallax, CSS"</h6>
                 </header>
               </article>
+              
             </div>
             <div className="col-4 col-12-mobile">
               <article className="item">
