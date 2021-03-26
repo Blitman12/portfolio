@@ -11,7 +11,7 @@ import pic5 from '../assets/images/theatre.jpg';
 import pic7 from '../assets/images/chat.png';
 import pic8 from '../assets/images/profile.jpg';
 import pic9 from '../assets/images/pic09.jpg';
-import pic10 from '../assets/images/MM.jpg';
+import pic10 from '../assets/images/musclemem.jpg';
 import avatar from '../assets/images/avatar.jpg';
 import anime from '../assets/images/anime.jpg';
 import calc from '../assets/images/calculator.jpg';
@@ -117,7 +117,6 @@ const IndexPage = () => (
                   <h6>"Parallax, CSS"</h6>
                 </header>
               </article>
-              
             </div>
             <div className="col-4 col-12-mobile">
               <article className="item">
