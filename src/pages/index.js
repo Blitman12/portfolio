@@ -10,7 +10,7 @@ import pic7 from '../assets/images/chat.png';
 import pic9 from '../assets/images/pic09.jpg';
 import pic10 from '../assets/images/musclemem.jpg';
 import pic11 from '../assets/images/space.jpg';
-import pic12 from '../assets/images/todolist.jpg';
+import todolist from '../assets/images/something.jpg';
 import avatar from '../assets/images/avatar.jpg';
 import anime from '../assets/images/anime.jpg';
 import calc from '../assets/images/calculator.jpg';
@@ -137,7 +137,7 @@ const IndexPage = () => (
                   className="image fit"
                   target="_blank"
                 >
-                  <img src={pic12} alt="todo app" />
+                  <img src={todolist} alt="todo app" />
                 </a>
                 <header>
                   <h3>Todo Application</h3>
