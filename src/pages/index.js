@@ -18,7 +18,7 @@ import anime from '../assets/images/anime.jpg';
 import calc from '../assets/images/calculator.jpg';
 import weather from '../assets/images/weather.jpg';
 import ichabod from '../assets/images/ichabodlion.jpg';
-import pic12 from '../assets/images/TodoList.jpg'
+import pic12 from '../assets/images/todolist.jpg';
 import Scroll from '../components/Scroll';
 
 const sections = [
@@ -61,8 +61,8 @@ const IndexPage = () => (
           </header>
 
           <p>
-            These projects will show knowledge in JavaScript, HTML, CSS, React, Express, 
-            Gatsby, MongoDB, GraphQl, Node.js, and more
+            These projects will show knowledge in JavaScript, HTML, CSS, React,
+            Express, Gatsby, MongoDB, GraphQl, Node.js, and more
           </p>
 
           <div className="row">
@@ -188,7 +188,7 @@ const IndexPage = () => (
               </article>
             </div>
             <div className="col-4 col-12-mobile">
-            <article className="item">
+              <article className="item">
                 <a
                   href="https://upbeat-clarke-655c15.netlify.app/"
                   className="image fit"
