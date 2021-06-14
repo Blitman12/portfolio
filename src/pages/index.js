@@ -1,24 +1,21 @@
 import React from 'react';
-
 import Layout from '../components/Layout';
 import PageFooter from '../components/PageFooter';
 import SideBar from '../components/SideBar';
-
 import pic2 from '../assets/images/accounting.jpg';
 import pic3 from '../assets/images/benchpress.jpg';
 import pic4 from '../assets/images/fitness.jpg';
 import pic5 from '../assets/images/theatre.jpg';
 import pic7 from '../assets/images/chat.png';
-import pic8 from '../assets/images/profile.jpg';
 import pic9 from '../assets/images/pic09.jpg';
 import pic10 from '../assets/images/musclemem.jpg';
 import pic11 from '../assets/images/space.jpg';
+import pic12 from '../assets/images/todolist.jpg';
 import avatar from '../assets/images/avatar.jpg';
 import anime from '../assets/images/anime.jpg';
 import calc from '../assets/images/calculator.jpg';
 import weather from '../assets/images/weather.jpg';
 import ichabod from '../assets/images/ichabodlion.jpg';
-import pic12 from '../assets/images/todolist.jpg';
 import Scroll from '../components/Scroll';
 
 const sections = [
@@ -263,10 +260,6 @@ const IndexPage = () => (
           <header>
             <h2>About Me</h2>
           </header>
-
-          {/* <a href="/#" className="image featured">
-            <img src={pic8} alt="" />
-          </a> */}
 
           <p>
             I graduated with my Bachelor of Science in Nursing in 2016 and have
