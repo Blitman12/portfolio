@@ -18,6 +18,7 @@ import anime from '../assets/images/anime.jpg';
 import calc from '../assets/images/calculator.jpg';
 import weather from '../assets/images/weather.jpg';
 import ichabod from '../assets/images/ichabodlion.jpg';
+import pic12 from '../assets/images/TodoList.jpg'
 import Scroll from '../components/Scroll';
 
 const sections = [
@@ -131,6 +132,19 @@ const IndexPage = () => (
                 <header>
                   <h3>Fitness Blog</h3>
                   <h6>"React, Gatsby, MDX"</h6>
+                </header>
+              </article>
+              <article className="item">
+                <a
+                  href="https://todo-app-4419c.web.app/"
+                  className="image fit"
+                  target="_blank"
+                >
+                  <img src={pic12} alt="todo app" />
+                </a>
+                <header>
+                  <h3>Todo Application</h3>
+                  <h6>"React, Firebase"</h6>
                 </header>
               </article>
               <article className="item">
