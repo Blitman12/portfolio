@@ -3,14 +3,12 @@ import Layout from '../components/Layout';
 import PageFooter from '../components/PageFooter';
 import SideBar from '../components/SideBar';
 import pic2 from '../assets/images/accounting.jpg';
-import pic3 from '../assets/images/benchpress.jpg';
 import pic4 from '../assets/images/fitness.jpg';
 import pic5 from '../assets/images/theatre.jpg';
 import pic7 from '../assets/images/chat.png';
 import pic9 from '../assets/images/pic09.jpg';
 import pic10 from '../assets/images/musclemem.jpg';
 import pic11 from '../assets/images/space.jpg';
-import todolist from '../assets/images/something.jpg';
 import avatar from '../assets/images/avatar.jpg';
 import anime from '../assets/images/anime.jpg';
 import calc from '../assets/images/calculator.jpg';
@@ -59,7 +57,7 @@ const IndexPage = () => (
 
           <p>
             These projects will show knowledge in JavaScript, HTML, CSS, React,
-            Express, Gatsby, MongoDB, GraphQl, Node.js, and more
+            Node.js/Express, Gatsby, MongoDB, GraphQl, and more
           </p>
 
           <div className="row">
@@ -88,6 +86,8 @@ const IndexPage = () => (
                 <header>
                   <h3>Muscle Memory</h3>
                   <h6>"MERN, Authentication, Posts/Comments"</h6>
+                  <h6>User Email: testaccount@gmail.com</h6>
+                  <h6>User Password: testaccount</h6>
                 </header>
               </article>
               <article className="item">
@@ -113,7 +113,7 @@ const IndexPage = () => (
                 </a>
                 <header>
                   <h3>Simple Parallax Example (+ Cats)</h3>
-                  <h6>"Parallax, CSS"</h6>
+                  <h6>"Parallax, CSS, Amazing Cats"</h6>
                 </header>
               </article>
             </div>
@@ -131,19 +131,7 @@ const IndexPage = () => (
                   <h6>"React, Gatsby, MDX"</h6>
                 </header>
               </article>
-              <article className="item">
-                <a
-                  href="https://todo-app-4419c.web.app/"
-                  className="image fit"
-                  target="_blank"
-                >
-                  <img src={todolist} alt="todo app" />
-                </a>
-                <header>
-                  <h3>Todo Application</h3>
-                  <h6>"React, Firebase"</h6>
-                </header>
-              </article>
+            
               <article className="item">
                 <a
                   href="https://github.com/Blitman12/chat-app"
@@ -211,19 +199,7 @@ const IndexPage = () => (
                   <h6>"Contentful, Gatsby, GraphQl, Netlify"</h6>
                 </header>
               </article>
-              <article className="item">
-                <a
-                  href="https://benchpresscalc.netlify.app/ "
-                  className="image fit"
-                  target="_blank"
-                >
-                  <img src={pic3} alt="benchpress" />
-                </a>
-                <header>
-                  <h3>Simple BenchPress Tracker</h3>
-                  <h6>"Chart.js, JavaScript"</h6>
-                </header>
-              </article>
+          
               <article className="item">
                 <a
                   href="https://cranky-knuth-bb2350.netlify.app/"
@@ -264,12 +240,10 @@ const IndexPage = () => (
           <p>
             I graduated with my Bachelor of Science in Nursing in 2016 and have
             worked at a few Emergency Departments until finally landing at
-            American Express. Here I was introduced to the business/technology
-            side of the world and revaluated my life`s goals. I determined that
-            Web Development was my future and passion. I have been working full
-            time and self teaching coding since March of 2020 and look forward
-            to developing my skills and seek employment as a full time Web
-            Developer.
+            American Express. I was then introduced to programming by a close friend of mine 
+            and was hooked after creating my first HTML document. Since then I have focused my 
+            studies to primarily JavaScript and React but have experience with a number of other frameworks and libraries. 
+            I am eager to learn more and to never stop growing as a developer. 
           </p>
         </div>
       </section>
